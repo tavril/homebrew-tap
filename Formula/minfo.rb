@@ -1,24 +1,22 @@
 class Minfo < Formula
   desc "A simple tool to display macOS system information"
   homepage "https://github.com/tavril/minfo"
-  version "0.3.0"
+  version "0.3.1"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/tavril/minfo/releases/download/v0.3.0/minfo-v0.3.0-darwin-arm64.tar.gz"
-      sha256 "56714052c8ddc33f3a2ac9f203df72351998297d19c0879e0d971db7c9456eec"
+      url "https://github.com/tavril/minfo/releases/download/v0.3.1/minfo-v0.3.1-darwin-arm64.tar.gz"
+      sha256 "9e177f90ee90b654c662e6024d515f1f4a31cdac7a7f9d4915a61f8a738ff24a"
     end
-    # Until x86_64 support is added
     #on_intel do
-      #url "https://github.com/tavril/minfo/releases/download/v0.3.0/minfo-v0.3.0-darwin-amd64.tar.gz"
-      #sha256 "7fd2d4164c8d8718bf9e3fa9a807fcd02a603886ca0536e4fea88f14dd9ff5da"
     #end
   end
 
   def install
     # Extract the binary and move it to the bin directory
     bin.install "minfo"
+    man1.install "minfo.1"
   end
 
   test do
