@@ -1,13 +1,13 @@
 class Minfo < Formula
   desc "A simple tool to display macOS system information"
   homepage "https://github.com/tavril/minfo"
-  version "0.9.1"
+  version "0.10.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/tavril/minfo/releases/download/v0.9.1/minfo-v0.9.1-darwin-arm64.tar.gz"
-      sha256 "73357335df677efba30ad426ba0f44169c5940d0f15434cc838a488fdf0c5c52"
+      url "https://github.com/tavril/minfo/releases/download/v0.10.0/minfo-v0.10.0-darwin-arm64.tar.gz"
+      sha256 "791b00dc04ad7827e794a7caed04e35c3c5e3112661998920010ab6a58e76a9c"
     end
     #on_intel do
     #end
