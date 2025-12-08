@@ -7,7 +7,7 @@ class Minfo < Formula
   on_macos do
     on_arm do
       url "https://github.com/tavril/minfo/releases/download/v0.20.1/minfo-v0.20.1-darwin-arm64.tar.gz"
-      sha256 "6892c39c0bdd117da329a2021e6bc6df93564ad7404de9f856ed8f3a439e31cf"
+      sha256 "0fc7148e3ffddb1fae9bbc3a01f8f1ac37731b468c22fd346f74fa39efc9343c"
     end
   end
 
